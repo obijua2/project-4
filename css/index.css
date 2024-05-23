@@ -1,0 +1,229 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f6f8;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #FFFf ;
+    color: #000;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin-bottom: 20px;
+}
+
+nav ul li a {
+    color: #091E42;
+    text-decoration: none;
+    display: block;
+}
+
+nav ul li a.active {
+    color: #ffac41;
+}
+
+.sub-menu {
+    margin-left: 20px;
+}
+
+main {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+header input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.user-info img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.status.online {
+    color: #027A48;
+    background-color: #ECFDF3;
+    border-radius: 15px;
+}
+
+.status.online.a-dot {
+    height: 10px;
+    width: 10px;
+    background-color: #12B76A;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 0.10rem;
+  }
+
+.employees-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffac41;
+    color: white;
+    cursor: pointer;
+}
+
+.filters {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.filters input[type="text"] {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+table th, table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+table td p {
+    font-family: Avenir;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    margin-top: 0.10rem;
+}
+
+.employee-info {
+    display: flex;
+    justify-items: center;
+}
+
+.employee-info img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.name {
+    font-weight: bold;
+    margin-top: ;
+}
+
+.email {
+    font-size: 0.9em;
+    color: #777;
+  /*  padding-left: 3rem;
+    margin-top: 0.05rem; */
+}
+
+.status {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.status.active {
+    color: #027A48;
+    background-color: #ECFDF3;
+    border-radius: 15px;
+}
+
+.a-dot {
+    height: 10px;
+    width: 10px;
+    background-color: #12B76A;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 0.10rem;
+  }
+
+.status.inactive {
+    color: #F15046;
+    background-color: #FFF2EA;
+    border-radius: 15px;
+}
+
+.i-dot {
+    height: 10px;
+    width: 10px;
+    background-color: #F15046;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 0.10rem;
+  }
+
+.team {
+    background-color: #e7e7e7;
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin-right: 5px;
+}
+
+.team.design {
+    color: #6A1039;
+    background-color: #F7E8EF;
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.pages {
+    display: flex;
+    align-items: center;
+}
+
+.pages .btn {
+    margin: 0 5px;
+}
+
+.prev, .next {
+    background-color: #2e3a59;
+}

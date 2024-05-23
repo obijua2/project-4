@@ -1,0 +1,259 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+        <aside class="sidebar">
+            <div class="logo">Aerten</div>
+            <nav>
+                <ul>
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="#">Roles</a></li>
+                    <li><a href="#" class="active">Employees</a></li>
+                    <ul class="sub-menu">
+                        <li><a href="#">All Employees</a></li>
+                        <li><a href="#">Recent hires</a></li>
+                    </ul>
+                    <li><a href="#">Payroll</a></li>
+                    <li><a href="#">Reports</a></li>
+                    <li><a href="#">Settings</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <main>
+            <header>
+                <input type="text" placeholder="Search anything here">
+                <div class="user-info">
+                    <img src="./imgs/joao-paulo-de-souza-oliveira-ZHKKg9lnCSk-unsplash.jpg" alt="User Avatar">
+                    <span class="status online"><span class="a-dot"></span>
+                </div>
+            </header>
+            <section class="employees">
+                <div class="employees-header">
+                    <h1>Employees</h1>
+                    <button class="btn new-employee">+ New Employee</button>
+                </div>
+                <div class="employees-content">
+                    <div class="filters">
+                        <input type="text" placeholder="Search Employee by name, role, ID or any related keywords">
+                        <button class="btn export">Export</button>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th><input type="checkbox"></th>
+                                <th>Name</th>
+                                <th>Employee ID</th>
+                                <th>Role</th>
+                                <th>Status</th>
+                                <th>Teams</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>
+                                    <div class="employee-info">
+                                        <img src="https://images.unsplash.com/photo-1599842057874-37393e9342df?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGZlbWFsZXN8ZW58MHx8MHx8fDA%3D" alt="TF">
+                                        <div>
+                                            <span class="name">Tanner Finsha</span>
+                                            <span class="email">@Tannerfisher@gmail.com</span>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>#23454GH6JYT6</td>
+                                <td>Product Designer <p>Full time</p></td>
+                                <td></span><span class="status active"><span class="a-dot"></span>&ensp;Active</span></td>
+                                <td>
+                                    <span class="team">Marketing</span>
+                                    <span class="team design">Design</span>
+                                    <span class="team">+3</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>
+                                    <div class="employee-info">
+                                        <img src="https://images.unsplash.com/photo-1599842057874-37393e9342df?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGZlbWFsZXN8ZW58MHx8MHx8fDA%3D" alt="TF">
+                                        <div>
+                                            <span class="name">Emeto Winner</span>
+                                            <span class="email">@Tannerfisher@gmail.com</span>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>#23454GH6JYT6</td>
+                                <td>Sales specialist <p>Full time</p></td>
+                                <td><span class="status inactive"><span class="i-dot"></span>&ensp;Inactive</span></td>
+                                <td>
+                                    <span class="team">Product</span>
+                                    <span class="team design">Design</span>
+                                    <span class="team">+1</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>
+                                    <div class="employee-info">
+                                        <img src="https://images.unsplash.com/photo-1599842057874-37393e9342df?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGZlbWFsZXN8ZW58MHx8MHx8fDA%3D" alt="TF">
+                                        <div>
+                                            <span class="name">Tassy Omah</span>
+                                            <span class="email">@Tannerfisher@gmail.com</span>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>#23454GH6JYT6</td>
+                                <td>Product Designer <p>Full time</p></td>
+                                <td><span class="status active"><span class="a-dot"></span>&ensp;Active</span></td>
+                                <td>
+                                    <span class="team">Engineering</span>
+                                    <span class="team design">Design</span>
+                                    <span class="team">+6</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>
+                                    <div class="employee-info">
+                                        <img src="https://images.unsplash.com/photo-1599842057874-37393e9342df?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGZlbWFsZXN8ZW58MHx8MHx8fDA%3D" alt="TF">
+                                        <div>
+                                            <span class="name">James Muriel</span>
+                                            <span class="email">@Tannerfisher@gmail.com</span>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>#23454GH6JYT6</td>
+                                <td>Backend Engineer <p>Full time</p></td>
+                                <td><span class="status active"><span class="a-dot"></span>&ensp;Active</span></td>
+                                <td>
+                                    <span class="team">Marketing</span>
+                                    <span class="team design">Design</span>
+                                    <span class="team">0</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>
+                                    <div class="employee-info">
+                                        <img src="https://images.unsplash.com/photo-1599842057874-37393e9342df?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGZlbWFsZXN8ZW58MHx8MHx8fDA%3D" alt="TF">
+                                        <div>
+                                            <span class="name">Emeto Winner</span>
+                                            <span class="email">@Tannerfisher@gmail.com</span>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>#23454GH6JYT6</td>
+                                <td>Frontend Engineer <p>Full time</p></td>
+                                <td><span class="status inactive"><span class="i-dot"></span>&ensp;Inactive</span></td>
+                                <td>
+                                    <span class="team">Product</span>
+                                    <span class="team design">Design</span>
+                                    <span class="team">+3</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>
+                                    <div class="employee-info">
+                                        <img src="https://images.unsplash.com/photo-1599842057874-37393e9342df?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGZlbWFsZXN8ZW58MHx8MHx8fDA%3D" alt="TF">
+                                        <div>
+                                            <span class="name">Tanner Finsha</span>
+                                            <span class="email">@Tannerfisher@gmail.com</span>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>#23454GH6JYT6</td>
+                                <td>Product Designer <p>Full time</p></td>
+                                <td><span class="status inactive"><span class="i-dot"></span>&ensp;Inactive</span></td>
+                                <td>
+                                    <span class="team">Product</span>
+                                    <span class="team design">Design</span>
+                                    <span class="team">+5</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>
+                                    <div class="employee-info">
+                                        <img src="https://images.unsplash.com/photo-1599842057874-37393e9342df?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGZlbWFsZXN8ZW58MHx8MHx8fDA%3D" alt="TF">
+                                        <div>
+                                            <span class="name">James Muriel</span>
+                                            <span class="email">@Tannerfisher@gmail.com</span>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>#23454GH6JYT6</td>
+                                <td>Product Designer <p>Full time</p></td>
+                                <td><span class="status inactive"><span class="i-dot"></span>&ensp;Inactive</span></td>
+                                <td>
+                                    <span class="team">Marketing</span>
+                                    <span class="team design">Design</span>
+                                    <span class="team">0</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>
+                                    <div class="employee-info">
+                                        <img src="https://images.unsplash.com/photo-1599842057874-37393e9342df?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGZlbWFsZXN8ZW58MHx8MHx8fDA%3D" alt="TF">
+                                        <div>
+                                            <span class="name">Tassy Omah</span>
+                                            <span class="email">@Tannerfisher@gmail.com</span>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>#23454GH6JYT6</td>
+                                <td>Backend Engineer <p>Full time</p></td>
+                                <td><span class="status active"><span class="a-dot"></span>&ensp;Active</span></td>
+                                <td>
+                                    <span class="team">Engineering</span>
+                                    <span class="team design">Design</span>
+                                    <span class="team">0</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>
+                                    <div class="employee-info">
+                                        <img src="https://images.unsplash.com/photo-1599842057874-37393e9342df?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGZlbWFsZXN8ZW58MHx8MHx8fDA%3D" alt="TF">
+                                        <div>
+                                            <span class="name">Tanner Finsha</span>
+                                            <span class="email">@Tannerfisher@gmail.com</span>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>#23454GH6JYT6</td>
+                                <td>Product Designer <p>Full time</p></td>
+                                <td><span class="status active"><span class="a-dot"></span>&ensp;Active</span></td>
+                                <td>
+                                    <span class="team">Marketing</span>
+                                    <span class="team design">Design</span>
+                                    <span class="team">+4</span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="pagination">
+                    <button class="btn prev">Previous</button>
+                    <div class="pages">
+                        <button class="btn">1</button>
+                        <button class="btn">2</button>
+                        <button class="btn">3</button>
+                        <span>...</span>
+                        <button class="btn">10</button>
+                    </div>
+                    <button class="btn next">Next</button>
+                </div>
+            </section>
+        </main>
+    </div>
+  
+    <script src="./js/index.js"></script>
+    
+</body>
+</html>
